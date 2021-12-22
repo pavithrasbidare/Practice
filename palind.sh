@@ -1,4 +1,5 @@
 #!/bin/bash
+#pavithra
 # palindrom or not script
 echo "enter the string"
 read str
