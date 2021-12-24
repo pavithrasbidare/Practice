@@ -4,7 +4,7 @@
 echo "enter the string"
 read str
 rvs=` echo $str | rev`
-if [ $str = $rvs ]
+if [ $str -eq $rvs ]
 then
 echo "its palindrom"
 else
